@@ -1,6 +1,6 @@
 clear all
-cd 'C:\Users\User\PycharmProjects\lab_c\quantum_cryptography\movies\VVHH\100_meas_v,v-detectors';
-filename='H-alice';
+cd 'C:\Users\User\PycharmProjects\lab_c\quantum_cryptography\movies\VVHH\20_meas_V,V-detectors';
+filename='H-bob-(2)';
 full_file_name=append(filename,'.tif');
 V1 = tiffreadVolume(full_file_name);
 data_full=im2double(V1);
